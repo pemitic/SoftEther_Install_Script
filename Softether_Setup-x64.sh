@@ -5,10 +5,12 @@ apt-get upgrade -y
 apt-get install curl -y
 apt-get install build-essential -y
 #Download SoftEther
-wget http://www.softether-download.com/files/softether/v4.14-9529-beta-2015.02.02-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.14-9529-beta-2015.02.02-linux-x64-64bit.tar.gz
+#wget http://www.softether-download.com/files/softether/v4.14-9529-beta-2015.02.02-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.14-9529-beta-2015.02.02-linux-x64-64bit.tar.gz
+wget http://www.softether-download.com/files/softether/v4.34-9745-rtm-2020.04.05-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.34-9745-rtm-2020.04.05-linux-x64-64bit.tar.gz
 sleep 5
 #Extract SoftEther
-tar -xzvf softether-vpnserver-v4.14-9529-beta-2015.02.02-linux-x64-64bit.tar.gz
+#tar -xzvf softether-vpnserver-v4.14-9529-beta-2015.02.02-linux-x64-64bit.tar.gz
+tar -xzvf softether-vpnserver-v4.34-9745-rtm-2020.04.05-linux-x64-64bit.tar.gz
 sleep 5
 #Compile SoftEther
 cd vpnserver
